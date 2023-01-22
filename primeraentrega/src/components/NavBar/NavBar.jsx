@@ -13,7 +13,7 @@ const NavBar = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
                             <NavLink  className={({ isActive}) => isActive ? 'btn btn-success' : 'btn btn-dark'} to='/categoria/remeras'>Cortadores</NavLink>
-                            <NavLink  className={({ isActive}) => isActive ? 'btn btn-success' : 'btn btn-dark'} to='/categoria/Gorras'>Variados</NavLink>
+                            <NavLink  className={({ isActive}) => isActive ? 'btn btn-success' : 'btn btn-dark'} to='/categoria/gorras'>Variados</NavLink>
                         </Nav>
 
                         <Nav>

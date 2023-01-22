@@ -1,13 +1,13 @@
 import { useParams } from "react-router-dom"
 
-
 const ItemDetailContainer = () => {
-    const {detailId} = useParams()
+    const {detaliId} = useParams()
+    console.log(detaliId)
 
-    
-  return (
-    <div>itemDetailContainer</div>
-  )
+    // useEffec(solicitud(id))
+    return (
+        <div>ItemDetailContainer {detaliId} </div>
+    )
 }
 
 export default ItemDetailContainer
