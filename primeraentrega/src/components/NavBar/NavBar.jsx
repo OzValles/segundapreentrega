@@ -12,8 +12,8 @@ const NavBar = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <NavLink  className={({ isActive}) => isActive ? 'btn btn-success' : 'btn btn-dark'} to='/categoria/remeras'>Cortadores</NavLink>
-                            <NavLink  className={({ isActive}) => isActive ? 'btn btn-success' : 'btn btn-dark'} to='/categoria/gorras'>Variados</NavLink>
+                            <NavLink  className={({ isActive}) => isActive ? 'btn btn-success' : 'btn btn-dark'} to='/categoria/cortadores'>Cortadores</NavLink>
+                            <NavLink  className={({ isActive}) => isActive ? 'btn btn-success' : 'btn btn-dark'} to='/categoria/variado'>Variados</NavLink>
                         </Nav>
 
                         <Nav>
